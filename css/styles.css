@@ -72,8 +72,7 @@ body {
 }
 .hero .button:hover,
 .hero .button:focus {
-  background-color: #f5f4fa;
-  color: #000000;
+  background-color: #188ce8;
 }
 
 /* skills */
@@ -149,6 +148,7 @@ body {
 }
 .addres .addres-ref {
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -156,6 +156,7 @@ body {
 }
 .addres .contact-ref {
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -189,9 +190,11 @@ body {
   color: var(--primary-title-color);
 }
 .gallery-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 /* .gallery-more {
 } додатковий текст клітинокгалереї*/
